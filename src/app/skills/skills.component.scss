@@ -1,0 +1,41 @@
+.what-i-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .content {
+    display: flex;
+    align-items: flex-start;
+  }
+  .image {
+    width: 50%;
+    max-width: 300px;
+    margin-right: 60px;
+  }
+  .text {
+    width: 60%;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .skills i {
+    margin: 0 10px;
+    font-size: 2em;
+    color: #333;
+  }
+  .skills i:hover {
+    color: #007bff;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
