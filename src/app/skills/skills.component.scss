@@ -2,15 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    margin: 50px;
+    width: 100%;
   }
   .content {
     display: flex;
     align-items: flex-start;
   }
   .image {
-    width: 50%;
-    max-width: 300px;
+    max-width: 400px;
     margin-right: 60px;
   }
   .text {

@@ -1,0 +1,13 @@
+<div class="progress-container">
+    <div class="bars">
+    @for(bar of progressBars; track bar.label) {
+        <div class="progressBar">
+            <h3>{{bar.label}}</h3>
+            <mat-progress-bar mode="determinate" [value]="bar.value"></mat-progress-bar>
+        </div>
+    }
+    </div>
+    <div class="image">
+      <img src="images/skill.svg" alt="Proficiency Illustration">
+    </div>
+  </div>

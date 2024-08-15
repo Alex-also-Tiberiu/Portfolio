@@ -1,0 +1,27 @@
+<div class="experiences-container">
+  <h2 class="experiences-heading">Experiences</h2>
+  <div class="row">
+    @for(experience of experiences; track experience.company) {
+    <div class="col-12 col-md-4">
+      <mat-card class="experience-card">
+        <div class="logo-container">
+          <img [src]="experience.logoUrl" [alt]="experience.company + ' logo'">
+        </div>
+        <mat-card-header>
+          <mat-card-title>{{experience.company}}</mat-card-title>
+          <mat-card-subtitle>{{experience.position}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{experience.duration}}</p>
+          <p>{{experience.description}}</p>
+          <ul>
+            @for(detail of experience.details; track detail) {
+            <li>{{detail}}</li>
+            }
+          </ul>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    }
+  </div>
+</div>

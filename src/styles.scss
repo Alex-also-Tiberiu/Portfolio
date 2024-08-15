@@ -1,2 +1,20 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333;
+}

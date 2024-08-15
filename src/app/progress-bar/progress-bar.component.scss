@@ -1,0 +1,32 @@
+.progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .bars {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 50px;
+  }
+  .image {
+    margin-left: 60px;
+  }
+  .image img {
+    max-width: 350px;
+    height: auto;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  mat-progress-bar {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+.mat-mdc-progress-bar.mat-primary {
+    --mdc-linear-progress-active-indicator-height: 15px!important;
+    --mdc-linear-progress-track-height: 15px!important;
+    border-radius: 10px!important;
+}

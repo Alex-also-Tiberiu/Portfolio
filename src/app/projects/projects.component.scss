@@ -1,0 +1,72 @@
+.mat-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    margin-bottom: 40px;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 95%;
+    height: 85%;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projects-container {
+    margin:50px
+}
+
+mat-card-title {
+    font-size: 1.5em;
+}
+
+mat-card-subtitle {
+    font-size: 1.2em;
+    color: #666;
+}
+
+mat-card-content p {
+    margin: 5px 0;
+}
+  
+  // projects-list.component.css
+// .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 20px;
+//   }
+  
+//   .projects-grid {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//     gap: 20px;
+//   }
+  
+//   .project-card {
+//     height: 100%;
+//   }
+  
+//   .more-projects {
+//     display: block;
+//     margin: 20px auto;
+//   }
+  
+//   mat-chip-listbox {
+//     margin-top: 16px;
+//   }
+  
+//   mat-chip {
+//     font-size: 12px;
+//   }
