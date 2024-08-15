@@ -1,7 +1,33 @@
 mat-toolbar {
-    background-color: white;
-    color: black;
-  }
-  .spacer {
-    flex: 1 1 auto;
-  }
+  background-color: white;
+  color: black;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.header .logo {
+  display: block;
+  flex: none;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.logo-name {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  color: #551a8b;
+}
+
+.grey-color {
+  color: #868e96;
+  font-weight: lighter;
+}

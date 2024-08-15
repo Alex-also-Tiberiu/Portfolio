@@ -7,6 +7,7 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { EducationComponent } from "./education/education.component";
 import { ExperiencesComponent } from "./experiences/experiences.component";
 import { ProjectsComponent } from "./projects/projects.component";
+import { AnimationOptions, LottieComponent } from 'ngx-lottie';
 
 @Component({
   selector: 'app-root',
@@ -19,11 +20,15 @@ import { ProjectsComponent } from "./projects/projects.component";
     ProgressBarComponent,
     EducationComponent,
     ExperiencesComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    LottieComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'portfolio';
+  // options: AnimationOptions = {
+  //   path: '/public/animations'
+  // }
 }

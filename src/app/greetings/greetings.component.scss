@@ -1,27 +1,47 @@
 .main-content {
-    text-align: start;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-  }
-  .icon-list {
-    margin-bottom: 20px;
-  }
-  .icon-list a {
-    margin: 0 10px;
-    font-size: 2em;
-    color: #333;
-    text-decoration: none;
-  }
-  .icon-list a:hover {
-    color: #007bff;
-  }
-  button {
-    margin: 10px;
-  }
+  text-align: start;
+  padding: 20px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.icon-list {
+  margin-bottom: 20px;
+}
+
+.icon-list a {
+  margin: 0 10px;
+  font-size: 2em;
+  color: #333;
+  text-decoration: none;
+}
+
+.icon-list a:hover {
+  color: #007bff;
+}
+
+button {
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}

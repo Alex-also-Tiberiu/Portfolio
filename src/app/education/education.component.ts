@@ -17,7 +17,7 @@ export class EducationComponent {
       description: 'Participated in the research of XXX and published 3 papers.',
       details: [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit2'
       ],
       logoUrl: 'images/unipd.png'
     };

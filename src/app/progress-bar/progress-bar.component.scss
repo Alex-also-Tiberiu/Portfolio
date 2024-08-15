@@ -3,17 +3,18 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin: 50px;
   }
   .bars {
     flex: 1;
     max-width: 50%;
-    margin-right: 50px;
+    //margin-right: 50px;
   }
   .image {
     margin-left: 60px;
   }
   .image img {
-    max-width: 350px;
+    max-width: 100%;
     height: auto;
   }
   h3 {

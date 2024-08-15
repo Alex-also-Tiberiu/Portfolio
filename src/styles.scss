@@ -1,20 +1,74 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "@fortawesome/fontawesome-free/css/all.css";
 
+// body {
+//   margin: 0;
+//   font-family: Roboto, "Helvetica Neue", sans-serif;
+// }
+
+// h2 {
+//     font-size: 30px;
+//     font-weight: 500;
+//     margin-bottom: 20px;
+//     color: #333;
+// }
+
+// h3 {
+//     font-weight: 500;
+//     margin-bottom: 20px;
+//     color: #333;
+// }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6200ff;
+  border-radius: 1rem;
+}
+
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("/public/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("/public/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: rem;
+    line-height: normal;
+  }
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-h3 {
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: #333;
-}
+$subTitle: #868e96;
+$cardSubtitle: #666666;
+$talkCardSubTitle: #7f8287;

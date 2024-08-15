@@ -1,5 +1,7 @@
 <div class="progress-container">
-    <div class="bars">
+  <div class="row align-items-center">
+    <div class="bars col-12 col-md-7 ">
+      <h1 style="margin-bottom: 50px;">Proficiency</h1>
     @for(bar of progressBars; track bar.label) {
         <div class="progressBar">
             <h3>{{bar.label}}</h3>
@@ -7,7 +9,9 @@
         </div>
     }
     </div>
-    <div class="image">
-      <img src="images/skill.svg" alt="Proficiency Illustration">
+    <div class="image col-12 col-md-5">
+      <!-- <img src="images/skill.svg" alt="Proficiency Illustration"> -->
+      <ng-lottie [options]="options"></ng-lottie>
     </div>
   </div>
+</div>
