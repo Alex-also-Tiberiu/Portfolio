@@ -7,7 +7,9 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { EducationComponent } from "./education/education.component";
 import { ExperiencesComponent } from "./experiences/experiences.component";
 import { ProjectsComponent } from "./projects/projects.component";
-import { AnimationOptions, LottieComponent } from 'ngx-lottie';
+import { LottieComponent } from 'ngx-lottie';
+import { FooterComponent } from "./footer/footer.component";
+import { ContactMeComponent } from "./contact-me/contact-me.component";
 
 @Component({
   selector: 'app-root',
@@ -21,14 +23,13 @@ import { AnimationOptions, LottieComponent } from 'ngx-lottie';
     EducationComponent,
     ExperiencesComponent,
     ProjectsComponent,
-    LottieComponent
+    LottieComponent,
+    FooterComponent,
+    ContactMeComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'portfolio';
-  // options: AnimationOptions = {
-  //   path: '/public/animations'
-  // }
 }

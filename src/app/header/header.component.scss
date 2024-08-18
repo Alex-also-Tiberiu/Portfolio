@@ -7,6 +7,18 @@ mat-toolbar {
   flex: 1 1 auto;
 }
 
+.header {
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: calc(0.625rem + 2vmin);
+}
+
+.header button {
+  font-size: 20px;
+  padding: 30px;
+  font-weight: 400;
+}
+
 .header .logo {
   display: block;
   flex: none;
@@ -18,16 +30,18 @@ mat-toolbar {
 }
 
 .logo-name {
-  font-family: "Dancing Script", cursive;
+  font-family: "Jersey 10", cursive;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 500;
+  //font-size: 1.3em;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
   color: #551a8b;
 }
 
 .grey-color {
+  font-size: 0.7em;
   color: #868e96;
   font-weight: lighter;
+  padding: 10px 10px;
 }
