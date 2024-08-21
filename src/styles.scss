@@ -1,5 +1,6 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "@fortawesome/fontawesome-free/css/all.css";
+@import "global-colors.scss";
 
 // body {
 //   margin: 0;
@@ -72,7 +73,3 @@ body {
     line-height: normal;
   }
 }
-
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;

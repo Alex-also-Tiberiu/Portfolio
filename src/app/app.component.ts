@@ -10,6 +10,7 @@ import { ProjectsComponent } from "./projects/projects.component";
 import { LottieComponent } from 'ngx-lottie';
 import { FooterComponent } from "./footer/footer.component";
 import { ContactMeComponent } from "./contact-me/contact-me.component";
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
