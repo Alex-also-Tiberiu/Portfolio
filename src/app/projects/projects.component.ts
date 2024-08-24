@@ -12,12 +12,12 @@ import { MatIcon} from '@angular/material/icon'
 })
 export class ProjectsComponent {
   projects = [
-    { title: 'Developer Portfolio Template', subtitle: '@ developerFolio', description: 'Software Developer Portfolio Template that helps you showcase your work and skills as a ...', logoUrl: 'assets/developer-portfolio-logo.png', githubLink: 'https://github.com/developerFolio' },
-    { title: 'React Blog: Github Issues', subtitle: '@ react-blog-github', description: 'React + Github Issues @ Your Personal Blog', logoUrl: 'assets/react-blog-logo.png', githubLink: 'https://github.com/react-blog-github' },
-    { title: 'Awesome-web-components', subtitle: '@ awesome-web-components', description: 'Awesome web components and snippets for every Front-End Developer', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/awesome-web-components' },
-    { title: 'Awesome-web-components', subtitle: '@ awesome-web-components', description: 'Awesome web components and snippets for every Front-End Developer', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/awesome-web-components' },
-    { title: 'Awesome-web-components', subtitle: '@ awesome-web-components', description: 'Awesome web components and snippets for every Front-End Developer', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/awesome-web-components' },
-    { title: 'Awesome-web-components', subtitle: '@ awesome-web-components', description: 'Awesome web components and snippets for every Front-End Developer', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/awesome-web-components' },
+    { title: 'Main Page', subtitle: '@Alex-also-Tiberiu', description: 'The main page of my personal github account', logoUrl: 'assets/developer-portfolio-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu' },
+    { title: 'Adapter Pattern', subtitle: '@Software engineering', description: 'Software engineering project during university, based on Java and Junit4', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu/Adapter-pattern' },
+    { title: 'Starting with Java', subtitle: '@Learn Java', description: 'This repositorie contains all the code i did to start learning Java. I started from simple exercices and i finish with various structures and algorithms', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu/Java-Laboratory' },
+    { title: 'HTTP Protocol', subtitle: '@C lang', description: 'Repository published by a friend about programming HTTP protocol in C language, it contains different code which we worked on', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu/rdc22' },
+    { title: 'Game Engine', subtitle: '@C++', description: 'Simple Game Engine, developed just for practicing more with C++ language', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu/Game-engine' },
+    { title: 'Simple Neural Networks', subtitle: '@Python / Pytorch / CNN', description: 'Just a few files describing a perceptron and a few neural networks', logoUrl: 'assets/awesome-web-components-logo.png', githubLink: 'https://github.com/Alex-also-Tiberiu/Simple_Neural_Networks' },
     // Add more projects as needed
   ];
 }

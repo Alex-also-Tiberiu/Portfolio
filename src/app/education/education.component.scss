@@ -1,11 +1,19 @@
 .education-container {
   max-width: 100%;
-  margin: 50px;
   padding: 20px;
+  margin: 100px 50px 100px 70px;
+  padding-top: 50px;
+}
+
+.education-heading {
+  line-height: 1.1;
+  color: var(--title);
 }
 
 .education-card {
-  margin-bottom: 20px;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 20px 0 20px 0;
   width: 98%;
 }
 
@@ -15,8 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   margin-right: 16px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .education-logo img {
@@ -29,14 +37,14 @@ mat-card-header {
   align-items: center;
 }
 
-.mat-card-title {
-  font-size: 1.4em;
-  font-weight: bold;
+mat-card-title {
+  font-size: 1.2em;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
-.mat-card-subtitle {
-  font-size: 1.1em;
+mat-card-subtitle {
+  font-size: 1em;
 }
 
 mat-card-content {

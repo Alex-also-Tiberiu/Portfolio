@@ -18,6 +18,11 @@ export class SkillsComponent {
 
   skills_svg = [
     {
+      path: "icons/typescript.svg",
+      alt:  "Typescript Icon",
+      name: "Typescript"
+    },
+    {
       path: "icons/c.svg",
       alt:  "C Icon",
       name: "C"
@@ -31,6 +36,16 @@ export class SkillsComponent {
       path: "icons/spring-boot.svg",
       alt:  "Spring Boot",
       name: "Spring Boot"
+    },
+    {
+      path: "icons/hibernate.svg",
+      alt:  "Hibernate",
+      name: "Hibernate"
+    },
+    {
+      path: "icons/yubico.svg",
+      alt:  "Yubico Webauthn",
+      name: "Webauthn Yubico"
     },
     {
       path: "icons/maven.svg",

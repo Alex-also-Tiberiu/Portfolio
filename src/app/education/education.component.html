@@ -1,25 +1,27 @@
 <div class="education-container">
-    <h2 class="education-heading">Education</h2>
-    <div class="row">
-      <div class="col-12 col-md-8">
-    <mat-card class="education-card">
-      <mat-card-header>
-        <div mat-card-avatar class="education-logo">
+  <div class="row">
+    <div class="col-12 education-heading">
+      <h1>Education</h1>
+    </div>
+    <div class="col-12 col-md-8">
+      <mat-card class="education-card">
+        <mat-card-header>
+          <div mat-card-avatar class="education-logo">
             <img [src]="education.logoUrl" [alt]="education.school + ' logo'">
           </div>
-        <mat-card-title>{{education.school}}</mat-card-title>
-        <mat-card-subtitle>{{education.degree}}</mat-card-subtitle>
-      </mat-card-header>
-      <mat-card-content>
-        <p>{{education.duration}}</p>
-        <p>{{education.description}}</p>
-        <ul>
+          <mat-card-title>{{education.school}}</mat-card-title>
+          <mat-card-subtitle>{{education.degree}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{education.duration}}</p>
+          <p><a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank">{{education.description}}</a></p>
+          <ul>
             @for(detail of education.details; track detail) {
-                <li>{{detail}}</li>
+            <li>{{detail}}</li>
             }
-        </ul>
-      </mat-card-content>
-    </mat-card>
-    </div>
+          </ul>
+        </mat-card-content>
+      </mat-card>
     </div>
   </div>
+</div>

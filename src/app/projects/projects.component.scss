@@ -4,13 +4,22 @@
 }
 
 .logo-container {
-    margin-left: 10px;
-    margin-top: 10px;
+    transform: scale(1.8);
+    margin: 18px 5px 0 10px;
 }
 
 .title-container {
     display: flex;
     flex-direction: column;
+}
+
+.projects-container h1 {
+    line-height: 1.1;
+    color: var(--title);
+}
+
+.project-row {
+    margin-top: 20px;
 }
 
 .project-card {
@@ -20,13 +29,18 @@
     height: 85%;
 }
 
+.project-link:hover {
+    text-decoration: none;
+}
+
 .project-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
 }
 
 .projects-container {
-    margin: 50px;
+    margin: 100px 70px 100px 70px;
     padding: 20px;
+    padding-top: 50px;
 }
 
 mat-card-title {
@@ -34,40 +48,10 @@ mat-card-title {
 }
 
 mat-card-subtitle {
-    font-size: 1.2em;
-    color: #666;
+    font-size: 1.1em;
+    color: var(--subTitle);
 }
 
 mat-card-content p {
     margin: 5px 0;
 }
-  
-  // projects-list.component.css
-// .container {
-//     max-width: 1200px;
-//     margin: 0 auto;
-//     padding: 20px;
-//   }
-  
-//   .projects-grid {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-//     gap: 20px;
-//   }
-  
-//   .project-card {
-//     height: 100%;
-//   }
-  
-//   .more-projects {
-//     display: block;
-//     margin: 20px auto;
-//   }
-  
-//   mat-chip-listbox {
-//     margin-top: 16px;
-//   }
-  
-//   mat-chip {
-//     font-size: 12px;
-//   }

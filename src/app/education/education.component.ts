@@ -14,11 +14,11 @@ export class EducationComponent {
       school: 'University of studies of Padua',
       degree: 'Bachelor degree in Computer Engineering',
       duration: 'September 2018 - March 2022',
-      description: 'Participated in the research of XXX and published 3 papers.',
+      description: 'Thesis: Development of a web application, with authentication service via oauth2 protocol',
       details: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit2'
+        'Internship on REST applications based on microservices and agile methodology',
+        'Different projects on various programming language'
       ],
-      logoUrl: 'images/unipd.png'
+      logoUrl: 'images/unipd2.png'
     };
 }

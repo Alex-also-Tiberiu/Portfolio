@@ -12,4 +12,17 @@ export class ContactMeComponent {
   options: AnimationOptions = {
     path: 'animations/email.json'
   }
+
+  details = {
+    mobile: "+393921158716",
+    email:  "alexandrutiberiu.vilcu@gmail.com"
+  }
+
+  tel() {
+    return "tel:" + this.details.mobile;
+  }
+
+  mailTo() {
+    return "mailto:" + this.details.email;
+  }
 }

@@ -1,6 +1,7 @@
 .experiences-container {
-  margin: 50px;
+  margin: 50px 70px 50px 70px;
   padding: 20px;
+  padding-top: 50px;
 }
 
 .logo-container {
@@ -12,7 +13,9 @@
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 10px;
   margin: 0 auto; /* Center the container */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container img {
@@ -21,16 +24,23 @@
 }
 
 .experiences-heading {
-  font-size: 2em;
-  margin-bottom: 20px;
+  line-height: 1.1;
+  color: var(--title);
 }
 
 .experience-card {
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 mat-card {
   width: 95%;
+  height: 95%;
+}
+
+mat-card-header {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 mat-card-title {
@@ -38,11 +48,16 @@ mat-card-title {
 }
 
 mat-card-subtitle {
-  font-size: 1.2em;
-  color: #666;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-size: 1em;
+  color: var(--title);
+  margin-bottom: 15px;
 }
 
 mat-card-content p {
+  color: var(--subTitle);
   margin: 5px 0;
 }
 
@@ -52,5 +67,6 @@ mat-card-content ul {
 }
 
 mat-card-content li {
+  color: var(--subTitle);
   margin-bottom: 5px;
 }

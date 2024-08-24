@@ -6,12 +6,52 @@
                 <p>{{subTitle}}</p>
             </div>
             <div class="icon-list">
-                <a href="https://www.linkedin.com/in/alexandru-tiberiu-vilcu-b8a98a1a0/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://www.typescriptlang.org" target="_blank"><i class="fas fa-envelope"></i></a>
+                
+                <span class="fa-stack fa-2x">
+                    <a href="https://www.linkedin.com/in/alexandru-tiberiu-vilcu-b8a98a1a0/" target="_blank" style="color: var(--linkedin);">
+                        <!-- <i class="fab fa-linkedin"></i> -->
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </a>                    
+                </span>
+                <span class="fa-stack fa-2x">
+                    <a href="https://github.com/Alex-also-Tiberiu" target="_blank" style="color: var(--github);">
+                        <!-- <i class="fab fa-github"></i> -->
+                        <i class="fas fa-circle fa-stack-2x" ></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+                <!-- <a href="https://www.facebook.com/Alex.tiberiu.vilcu" target="_blank" style="color: var(--faceBook);">
+                    <i class="fab fa-facebook"></i>
+                </a> -->
+                <span class="fa-stack fa-2x">
+                    <a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank" style="color: var(--graduation);">
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                        <i class="fas fa-circle fa-stack-2x" ></i>
+                        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+                <span class="fa-stack fa-2x">
+                    <a href="https://www.typescriptlang.org" target="_blank" style="color: var(--github);">
+                        <!-- <i class="fas fa-envelope"></i> -->
+                        <i class="fas fa-circle fa-stack-2x" ></i>
+                        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+                
+            <!-- </div>
+            <button class="btn" mat-raised-button color="primary" (click)="scrollToContactMe()">Contact Me</button>
+            <button class="btn" mat-raised-button color="accent">Download My Resume</button> -->
+
             </div>
-            <button class="btn" mat-raised-button color="primary">Contact Me</button>
-            <button class="btn" mat-raised-button color="accent">Download My Resume</button>
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <button class="btn" mat-raised-button color="primary" (click)="scrollToContactMe()">Contact Me</button>
+                </div>
+                <div class="col-lg-7 col-12 mt-3 mt-lg-0">
+                    <button class="btn" mat-raised-button color="accent">Download My Resume</button>
+                </div>
+            </div>
         </div>
         <div class="col-md-6 text-center">
             <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
