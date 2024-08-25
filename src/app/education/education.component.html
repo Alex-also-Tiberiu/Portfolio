@@ -3,7 +3,7 @@
     <div class="col-12 education-heading">
       <h1>Education</h1>
     </div>
-    <div class="col-12 col-md-8">
+    <div class="col-12">
       <mat-card class="education-card">
         <mat-card-header>
           <div mat-card-avatar class="education-logo">
@@ -13,8 +13,8 @@
           <mat-card-subtitle>{{education.degree}}</mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
-          <p>{{education.duration}}</p>
-          <p><a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank">{{education.description}}</a></p>
+          <p class="duration">{{education.duration}}</p>
+          <p class="description"><a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank">{{education.description}}</a></p>
           <ul>
             @for(detail of education.details; track detail) {
             <li>{{detail}}</li>

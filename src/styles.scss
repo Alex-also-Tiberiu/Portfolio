@@ -61,15 +61,37 @@ body {
 
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font-family: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1 {
+  font-size: 70px;
+  line-height: 1.1;
+  color: var(--title);
+}
+
+p {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  color: var(--subTitle);
+  margin: 30px 0px;
+}
+
+mat-card {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  margin: 30px 0px;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
     font-size: rem;
-    line-height: normal;
+    //line-height: normal;
   }
 }

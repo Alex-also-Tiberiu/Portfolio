@@ -116,6 +116,11 @@ export class SkillsComponent {
       link:"https://www.javascript.com"
     },
     {
+      class:"fab fa-bootstrap",
+      name:"Bootstrap",
+      link:""
+    },
+    {
       class:"fab fa-angular",
       name:"Angular",
       link:"https://angular.io"

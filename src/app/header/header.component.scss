@@ -3,13 +3,12 @@ mat-toolbar {
   color: black;
 }
 
-.spacer {
-  flex: 1 1 auto;
-}
-
 .header {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
   padding-top: 20px;
-  padding-right: 20px;
+  //padding-right: 20px;
   font-size: calc(0.625rem + 2vmin);
 }
 
@@ -19,13 +18,14 @@ mat-toolbar {
   font-weight: 400;
 }
 
+
 .header .logo {
   display: block;
   flex: none;
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: 10px;
+  //margin-top: 10px;
   line-height: normal;
 }
 
@@ -44,4 +44,8 @@ mat-toolbar {
   color: #868e96;
   font-weight: lighter;
   padding: 10px 10px;
+}
+
+button:focus {
+  outline: none;
 }

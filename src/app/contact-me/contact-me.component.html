@@ -2,7 +2,7 @@
     <div class="row align-items-center">
         <div class="col-md-6 text-center text-md-left">
             <h1>Contact Me 
-                <img alt="☎️" draggable="false" src="http://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/260e.png">
+                <img class="phone" alt="☎️" draggable="false" src="http://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/260e.png">
             </h1>
             <div class="details">
                 <p>Discuss a project or just want to say hi? My Inbox is open for all.</p>
@@ -10,21 +10,37 @@
                 <a [href]="mailTo()" class="contact-mail"><h2>{{details.email}}</h2></a>
             </div>
             <div class="icon-list">
-                <a href="https://www.linkedin.com/in/alexandru-tiberiu-vilcu-b8a98a1a0/" target="_blank" style="color: var(--linkedin);">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Alex-also-Tiberiu" target="_blank" style="color: var(--github);">
-                    <i class="fab fa-github"></i>
-                </a>
+                <span class="fa-stack fa-2x">
+                    <a href="https://www.linkedin.com/in/alexandru-tiberiu-vilcu-b8a98a1a0/" target="_blank" style="color: var(--linkedin);">
+                        <!-- <i class="fab fa-linkedin"></i> -->
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x"></i>
+                    </a>                    
+                </span>
+                <span class="fa-stack fa-2x">
+                    <a href="https://github.com/Alex-also-Tiberiu" target="_blank" style="color: var(--github);">
+                        <!-- <i class="fab fa-github"></i> -->
+                        <i class="far fa-circle fa-stack-2x" ></i>
+                        <i class="fab fa-github fa-stack-1x"></i>
+                    </a>
+                </span>
                 <!-- <a href="https://www.facebook.com/Alex.tiberiu.vilcu" target="_blank" style="color: var(--faceBook);">
                     <i class="fab fa-facebook"></i>
                 </a> -->
-                <a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank" style="color: var(--graduation);">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a [href]="mailTo()">
-                    <i class="fas fa-envelope"></i>
-                </a>
+                <span class="fa-stack fa-2x">
+                    <a href="https://thesis.unipd.it/handle/20.500.12608/44042" target="_blank" style="color: var(--graduation);">
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                        <i class="far fa-circle fa-stack-2x" ></i>
+                        <i class="fas fa-graduation-cap fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack fa-2x">
+                    <a [href]="mailTo()" style="color: var(--github);">
+                        <!-- <i class="fas fa-envelope"></i> -->
+                        <i class="far fa-circle fa-stack-2x" ></i>
+                        <i class="fas fa-envelope fa-stack-1x"></i>
+                    </a>
+                </span>
             </div>
         </div>
         <div class="col-md-6 text-center">

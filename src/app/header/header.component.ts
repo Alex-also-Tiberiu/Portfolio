@@ -7,8 +7,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   standalone: true,
   imports: [MatToolbarModule, MatButtonModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  public developer = "Alexandru Tiberiu Vilcu";
+  public developer = 'Alexandru Tiberiu Vilcu';
+
+  public scroll(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

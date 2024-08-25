@@ -1,11 +1,18 @@
-<mat-toolbar class="header" >
-    <div class="logo">
-        <span class="grey-color"> &lt;</span>
-        <span class="logo-name">{{developer}}</span>
-        <span class="grey-color">/&gt;</span>
+<mat-toolbar class="header">
+    <div class="row">
+        <div class="logo col-md-4 col-12">
+            <span class="grey-color"> &lt;</span>
+            <span class="logo-name">{{developer}}</span>
+            <span class="grey-color">/&gt;</span>
+        </div>
+
+        <div class="col-md-6 col-12 offset-2 justify-content-end">
+            <button mat-button (click)="scroll('skills')">Skills</button>
+            <button mat-button (click)="scroll('progress')">Proficiency</button>
+            <button mat-button (click)="scroll('education')">Education</button>
+            <button mat-button (click)="scroll('experiences')">experiences</button>
+            <button mat-button (click)="scroll('projects')">Projects</button>
+            <button mat-button (click)="scroll('contact-me')">Contact me</button>
+        </div>
     </div>
-    <span class="spacer"></span>
-    <button mat-button routerLink="/">Home</button>
-    <button mat-button routerLink="/about">About</button>
-    <button mat-button routerLink="/contact">Contact</button>
 </mat-toolbar>
