@@ -1,18 +1,39 @@
 <mat-toolbar class="header">
-    <div class="row">
-        <div class="logo col-md-4 col-12">
+    <mat-toolbar-row>
+    <div class="row-4 header-group">
+        <div class="col-md-4 logo">
             <span class="grey-color"> &lt;</span>
             <span class="logo-name">{{developer}}</span>
             <span class="grey-color">/&gt;</span>
         </div>
 
-        <div class="col-md-6 col-12 offset-2 justify-content-end">
+        <div class="col-md-8 header-buttons">
             <button mat-button (click)="scroll('skills')">Skills</button>
             <button mat-button (click)="scroll('progress')">Proficiency</button>
             <button mat-button (click)="scroll('education')">Education</button>
-            <button mat-button (click)="scroll('experiences')">experiences</button>
+            <button mat-button (click)="scroll('experiences')">Experiences</button>
             <button mat-button (click)="scroll('projects')">Projects</button>
             <button mat-button (click)="scroll('contact-me')">Contact me</button>
+            <button mat-icon-button (click)="trigger()"><mat-icon>menu</mat-icon></button>
         </div>
     </div>
+    </mat-toolbar-row>
 </mat-toolbar>
+
+<!-- <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="over" position="end">
+        <mat-nav-list>
+            <a mat-list-item (click)="scroll('skills'); sidenav.toggle()">Skills</a>
+            <a mat-list-item>Proficiency</a>
+            <a mat-list-item>Education</a>
+            <a mat-list-item>Experiences</a>
+            <a mat-list-item>Projects</a>
+            <a mat-list-item>Contact me</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <main>
+            <router-outlet></router-outlet> 
+        </main>
+      </mat-sidenav-content>
+  </mat-sidenav-container> -->

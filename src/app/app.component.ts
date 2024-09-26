@@ -10,12 +10,13 @@ import { ProjectsComponent } from "./projects/projects.component";
 import { LottieComponent } from 'ngx-lottie';
 import { FooterComponent } from "./footer/footer.component";
 import { ContactMeComponent } from "./contact-me/contact-me.component";
+import { MatSidenav, MatSidenavContainer, MatSidenavContent, MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet,
     HeaderComponent,
     GreetingsComponent,
     SkillsComponent,
@@ -25,11 +26,21 @@ import { ContactMeComponent } from "./contact-me/contact-me.component";
     ProjectsComponent,
     LottieComponent,
     FooterComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    RouterOutlet,
+    MatSidenavModule,
+    MatListModule
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'portfolio';
+
+  public scroll(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

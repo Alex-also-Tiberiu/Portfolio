@@ -29,6 +29,17 @@ mat-toolbar {
   line-height: normal;
 }
 
+.header-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .logo-name {
   font-family: "Jersey 10", cursive;
   font-optical-sizing: auto;
@@ -48,4 +59,12 @@ mat-toolbar {
 
 button:focus {
   outline: none;
+}
+
+mat-sidenav-container {
+  height: calc(205vh - 115vh);
+}
+
+mat-sidenav {
+  width: 200px;
 }
