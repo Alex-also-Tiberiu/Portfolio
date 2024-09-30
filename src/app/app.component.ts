@@ -41,6 +41,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 export class AppComponent {
   title = 'portfolio';
 
+  constructor() {}
+
   public scroll(id: string) {
     const element = document.getElementById(id);
     if (element) {
