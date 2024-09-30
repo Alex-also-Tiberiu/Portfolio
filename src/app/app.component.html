@@ -7,12 +7,13 @@
     <mat-sidenav #sidenav class="sidenav" fixedInViewport="false" mode="over" position="end" opened="false">
       <!-- Contenuto del sidenav -->
       <mat-nav-list>
-        <a mat-list-item (click)="scroll('skills'); sidenav.toggle()">Skills</a>
-        <a mat-list-item>Proficiency</a>
-        <a mat-list-item>Education</a>
-        <a mat-list-item>Experiences</a>
-        <a mat-list-item>Projects</a>
-        <a mat-list-item>Contact me</a>
+        <a mat-list-item (click)="scroll('greetings'); sidenav.toggle()"><i class="fas fa-house"></i>Home</a>
+        <a mat-list-item (click)="scroll('skills'); sidenav.toggle()"><i class="fas fa-microscope"></i>Skills</a>
+        <a mat-list-item (click)="scroll('progress'); sidenav.toggle()"><i class="fas fa-chart-simple"></i>Proficiency</a>
+        <a mat-list-item (click)="scroll('education'); sidenav.toggle()"><i class="fas fa-graduation-cap"></i>Education</a>
+        <a mat-list-item (click)="scroll('experiences'); sidenav.toggle()"><i class="fas fa-building"></i>Experiences</a>
+        <a mat-list-item (click)="scroll('projects'); sidenav.toggle()"><i class="fas fa-briefcase"></i>Projects</a>
+        <a mat-list-item (click)="scroll('contact-me'); sidenav.toggle()"><i class="fas fa-phone"></i>Contact me</a>
       </mat-nav-list>
     </mat-sidenav>
 
@@ -33,6 +34,3 @@
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
-
-
-<!-- <router-outlet></router-outlet> -->

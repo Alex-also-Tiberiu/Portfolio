@@ -1,8 +1,7 @@
 .toolbar {
-    position: fixed;
+    position: sticky;
     z-index: 2;
     background-color: white;
-    box-shadow: 0px 1px 20px -2px #9a71bd;
 }
 
 .example-container {
@@ -28,15 +27,27 @@
 
 
 mat-sidenav-content {
-    background-color: white;
+  background-color: white;
 
-    // mat-toolbar {
-    //     position: sticky;
-         
-    //     //top: 0;
-    //     z-index: 2;
-    //     background-color: white;
-    //}
+  // mat-toolbar {
+  //     position: sticky;     
+  //     //top: 0;
+  //     z-index: 2;
+  //     background-color: white;
+  //}
+}
+
+mat-nav-list a i {
+  text-align: center;
+  margin-right: 15px;
+  font-size: calc(1rem + 1.5vmin);
+  min-width: 30px;
+}
+
+mat-nav-list a {
+  display: flex;
+  align-items: start;
+  justify-content: center;
 }
 
 @keyframes fadeIn {
@@ -67,18 +78,23 @@ mat-sidenav-content {
   
 
 @media (min-width: 769px) {
-    .toolbar {
-        padding: 20px 0px;
-        margin: 20px 0px;
-        // position: fixed;
-        // z-index: 2;
-        // background-color: white;
-    }
+  .toolbar {
+    padding: 20px 0px;
+    margin: 20px 0px;
+    // position: fixed;
+    // z-index: 2;
+    // background-color: white;
+  }
 }
 
 @media(max-width: 768px) {
 
-    mat-sidenav-content {
-        margin-top: 50px;
-    }
+  .toolbar {
+    position: fixed;
+  }
+
+  mat-sidenav-content {
+    margin-top: 20px;
+    //padding-top: 3px;
+  }
 }

@@ -1,16 +1,14 @@
-<div class="progress-container">
-  <div class="row align-items-center">
-    <div class="bars col-12 col-md-7 ">
-      <h1 style="margin-bottom: 50px;">Proficiency</h1>
+<div class="row progress-container">
+  <div class="bars col-md-7 col-12">
+    <h1 style="margin-bottom: 50px;">Proficiency</h1>
     @for(bar of progressBars; track bar.label) {
-        <div class="progressBar">
-            <h3>{{bar.label}}</h3>
-            <mat-progress-bar mode="determinate" [value]="bar.value"></mat-progress-bar>
-        </div>
+      <div class="progressBar">
+          <h3>{{bar.label}}</h3>
+          <mat-progress-bar mode="determinate" [value]="bar.value"></mat-progress-bar>
+      </div>
     }
     </div>
-    <div class="image col-12 col-md-5">
-      <ng-lottie [options]="options"></ng-lottie>
-    </div>
+  <div class="image col-md-5 col-12">
+    <ng-lottie [options]="options"></ng-lottie>
   </div>
 </div>

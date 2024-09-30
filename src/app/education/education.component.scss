@@ -38,7 +38,7 @@ mat-card-header {
 }
 
 mat-card-title {
-  font-size: 30px;
+  font-size: calc(1rem + 2vmin); //30px;
   font-weight: 500;
   margin-bottom: 8px;
 }
@@ -61,4 +61,14 @@ mat-card-content ul {
   padding-left: 20px;
   margin-left: 30px;
   color: var(--subTitle);
+}
+
+@media(max-width: 767px) {
+  .education-container {
+    margin:0px;
+  }
+
+  .education-container h1 {
+    text-align: center;
+  }
 }

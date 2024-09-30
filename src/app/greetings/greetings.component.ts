@@ -32,4 +32,8 @@ export class GreetingsComponent{
       element.scrollIntoView({behavior: 'smooth'});
     }
   }
+
+  mailTo() {
+    return "mailto:" + "alexandrutiberiu.vilcu@gmail.com";
+  }
 }

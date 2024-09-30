@@ -46,22 +46,9 @@ button {
   text-transform: uppercase;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
-}
-
 @media (max-width: 767px) {
   .main-content {
-    padding: 10px;
+    padding: 70px 10px 10px 10px;
     margin: 10px;
   }
 

@@ -87,7 +87,7 @@ export class SkillsComponent {
     },
     {
       class:"fab fa-golang",
-      name:"Go lang",
+      name:"Go",
       link:""
     },
     {

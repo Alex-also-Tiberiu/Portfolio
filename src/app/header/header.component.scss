@@ -23,7 +23,7 @@ mat-toolbar {
   display: block;
   flex: none;
   float: left;
-  font-size: 1.5em;
+  font-size: calc(1.2em + 1vmin);
   text-decoration: none;
   //margin-top: 10px;
   line-height: normal;
