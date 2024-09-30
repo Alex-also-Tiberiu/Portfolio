@@ -1,6 +1,6 @@
 <div class="main-content">
     <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-left" style="padding-left: 50px;">
+        <div class="col-md-6 text-center text-md-left">
             <div class="greetings">
                 <h1>{{title}}</h1>
                 <p>{{subTitle}}</p>
@@ -45,15 +45,15 @@
 
             </div>
             <div class="row mt-4">
-                <div class="col-lg-5 col-12">
+                <div class="col-lg-5 col-12 contact-me">
                     <button class="btn" mat-raised-button color="primary" (click)="scrollToContactMe()">Contact Me</button>
                 </div>
-                <div class="col-lg-7 col-12 mt-3 mt-lg-0">
+                <div class="col-lg-7 col-12 mt-3 mt-lg-0 resume">
                     <button class="btn" mat-raised-button color="accent">Download My Resume</button>
                 </div>
             </div>
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center animation">
             <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
         </div>
     </div>

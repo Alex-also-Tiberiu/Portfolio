@@ -1,39 +1,33 @@
-<mat-toolbar class="header">
-    <mat-toolbar-row>
-    <div class="row-4 header-group">
-        <div class="col-md-4 logo">
-            <span class="grey-color"> &lt;</span>
-            <span class="logo-name">{{developer}}</span>
-            <span class="grey-color">/&gt;</span>
-        </div>
-
-        <div class="col-md-8 header-buttons">
-            <button mat-button (click)="scroll('skills')">Skills</button>
-            <button mat-button (click)="scroll('progress')">Proficiency</button>
-            <button mat-button (click)="scroll('education')">Education</button>
-            <button mat-button (click)="scroll('experiences')">Experiences</button>
-            <button mat-button (click)="scroll('projects')">Projects</button>
-            <button mat-button (click)="scroll('contact-me')">Contact me</button>
-            <button mat-icon-button (click)="trigger()"><mat-icon>menu</mat-icon></button>
-        </div>
+<div class="row-4 header header-group">
+    <div class="col-md-4 logo">
+      <span class="grey-color"> <</span>
+      <span class="logo-name">{{developer}}</span>
+      <span class="grey-color">/></span>
     </div>
-    </mat-toolbar-row>
-</mat-toolbar>
-
-<!-- <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="over" position="end">
-        <mat-nav-list>
-            <a mat-list-item (click)="scroll('skills'); sidenav.toggle()">Skills</a>
-            <a mat-list-item>Proficiency</a>
-            <a mat-list-item>Education</a>
-            <a mat-list-item>Experiences</a>
-            <a mat-list-item>Projects</a>
-            <a mat-list-item>Contact me</a>
-        </mat-nav-list>
-    </mat-sidenav>
-    <mat-sidenav-content>
-        <main>
-            <router-outlet></router-outlet> 
-        </main>
-      </mat-sidenav-content>
-  </mat-sidenav-container> -->
+  
+    @if(!isMobile) {
+    <div class="col-md-8 header-buttons">
+      <div class="desktop-buttons">
+        <button mat-button (click)="scroll('skills')">Skills</button>
+        <button mat-button (click)="scroll('progress')">Proficiency</button>
+        <button mat-button (click)="scroll('education')">Education</button>
+        <button mat-button (click)="scroll('experiences')">Experiences</button>
+        <button mat-button (click)="scroll('projects')">Projects</button>
+        <button mat-button (click)="scroll('contact-me')">Contact me</button>
+      </div>
+    </div>
+    }
+    @else {
+      <div class="col-xs-4 mobile-button fixed-top text-right">
+        <button mat-button (click)="trigger()">
+          @if(!sidenavState) {
+            <mat-icon id="menuIcon">menu</mat-icon>
+          }
+          @else {
+            <mat-icon id="menuIcon">close</mat-icon>
+          }
+        </button>
+      </div>
+    }
+  </div>
+  

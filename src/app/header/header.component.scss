@@ -7,14 +7,14 @@ mat-toolbar {
   // display: flex;
   // justify-content: space-between;
   // align-items: center;
-  padding-top: 20px;
+  
   //padding-right: 20px;
-  font-size: calc(0.625rem + 2vmin);
+  font-size: calc(0.625rem + 1.4vmin);
 }
 
 .header button {
   font-size: 20px;
-  padding: 30px;
+  padding: 20px;
   font-weight: 400;
 }
 
@@ -29,15 +29,41 @@ mat-toolbar {
   line-height: normal;
 }
 
+.logo {
+  min-width: 220px; /* Allarga la larghezza minima del logo per includere i simboli */
+  flex-shrink: 0; /* Non permette di ridurre la dimensione del logo */
+  display: flex; /* Mantiene il contenuto in linea */
+  align-items: center; /* Allinea verticalmente gli elementi all'interno */
+}
+
 .header-group {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
-.header-buttons {
+.header-buttons .desktop-buttons {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+  //font-size: calc(0.625rem+2vmin);
+}
+
+.header-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  flex-grow: 1; /* Occupa lo spazio rimanente dopo il logo */
+  flex-wrap: wrap; /* I bottoni vanno a capo se non c'è spazio sufficiente */
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.header-buttons .desktop-buttons button {
+  font-size: calc(0.5rem + 1.5vmin);
+  margin: 5px;
 }
 
 .logo-name {
@@ -55,16 +81,36 @@ mat-toolbar {
   color: #868e96;
   font-weight: lighter;
   padding: 10px 10px;
+  white-space: nowrap;
 }
 
 button:focus {
   outline: none;
 }
 
-mat-sidenav-container {
-  height: calc(205vh - 115vh);
+.mobile-button {
+  position: absolute;
+  text-align: end;
+  top: 0px;
+  right: 0px;
+  margin: 10px;
 }
 
-mat-sidenav {
-  width: 200px;
+.mobile-button mat-icon {
+  font-size: 20px;
 }
+
+.menu-icon {
+  transition: transform 0.3s ease;
+}
+
+.menu-icon.close {
+  transform: rotate(45deg);
+}
+
+// @media(max-width:768) {
+//   .header .header-group div {
+//     padding-right: 0px;
+//     padding-left: 0px;
+//   }
+// }

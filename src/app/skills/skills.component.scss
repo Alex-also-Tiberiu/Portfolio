@@ -18,13 +18,12 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  width: 95%;
+  margin: 0 auto;
 }
 
 .skills img {
   width: 3em; 
   height: 3em;
-  text-align: center;
 }
 
 .skills i {
@@ -49,17 +48,14 @@
 }
 
 .skill-container {
-  text-align: center;
   margin-bottom: 15px;
   margin-right: 10px;
-  //color: #333;
 }
 
 .skill-container-svg {
   text-align: center;
   margin-bottom: 30px;
   margin-right: 20px;
-  //color: #333;
 }
 
 .skill-name {
@@ -74,4 +70,15 @@ ul {
 ul li {
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+@media (max-width:767px) {
+
+  .lottie {
+    order: 2;
+  }
+
+  skills-text {
+    order: 1;
+  }
 }

@@ -6,13 +6,13 @@
 }
 
 .greetings h1 {
-  font-size: 70px;
+  //font-size: calc(2rem + 2vmin);
   line-height: 1.1;
   color: var(--title);
 }
 
 .greetings p {
-  font-size: 30px;
+  //font-size: calc(1rem + 1.4vmin);
   line-height: 40px;
   font-weight: 100;
   color: var(--subTitle);
@@ -57,4 +57,19 @@ img {
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
+}
+
+@media (max-width: 767px) {
+  .main-content {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animation {
+    margin-top: 5px;
+  }
+
+  .contact-me, .resume {
+    padding: 0 40px;
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, HostListener, Input, OnInit, Output } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -13,11 +13,24 @@ import { MatListModule } from '@angular/material/list';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   public developer = 'Alexandru Tiberiu Vilcu';
+  isMobile: boolean = false;
+
+  @Input()
+  public sidenavState: any;
 
   @Output()
   public toggleSdNav = new EventEmitter();
+
+  @HostListener('window:resize',['$event'])
+  onResize(event: any): void {
+    this.checkScreenSize();
+  }
+  
+  ngOnInit(): void {
+    this.checkScreenSize();
+  }
 
   public scroll(id: string) {
     const element = document.getElementById(id);
@@ -29,4 +42,9 @@ export class HeaderComponent {
   public trigger() {
     this.toggleSdNav.emit();
   }
+
+  checkScreenSize(): void {
+    this.isMobile = window.innerWidth <= 768; // Puoi regolare la larghezza in base alle tue esigenze
+  }
+  
 }

@@ -12,6 +12,8 @@ import { FooterComponent } from "./footer/footer.component";
 import { ContactMeComponent } from "./contact-me/contact-me.component";
 import { MatSidenav, MatSidenavContainer, MatSidenavContent, MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-root',
@@ -29,7 +31,9 @@ import { MatListModule } from '@angular/material/list';
     ContactMeComponent,
     RouterOutlet,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    MatToolbarModule
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

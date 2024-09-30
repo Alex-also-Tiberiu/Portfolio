@@ -45,7 +45,7 @@ export class SkillsComponent {
     {
       path: "icons/yubico.svg",
       alt:  "Yubico Webauthn",
-      name: "Webauthn Yubico"
+      name: "Webauthn"
     },
     {
       path: "icons/maven.svg",

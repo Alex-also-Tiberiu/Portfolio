@@ -67,17 +67,21 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: calc(3rem + 2vmin);
   line-height: 1.1;
   color: var(--title);
 }
 
 p {
-  font-size: 30px;
+  font-size: calc(1rem + 1.4vmin);
   line-height: 40px;
   font-weight: 100;
   color: var(--subTitle);
   margin: 30px 0px;
+}
+
+ul li {
+  //font-size: calc(0.8rem + 1vmin);
 }
 
 mat-card {
@@ -88,6 +92,14 @@ mat-card {
 }
 
 /* Media Query */
+// @media (max-width: 1380px) {
+//   html,
+//   body {
+//     font-size: rem;
+//     //line-height: normal;
+//   }
+// }
+
 @media (max-width: 1380px) {
   html,
   body {
