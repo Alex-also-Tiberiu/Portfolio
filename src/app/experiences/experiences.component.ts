@@ -17,7 +17,7 @@ export class ExperiencesComponent {
       duration: "November 2022 - nowadays",
       description: "On a continous training and also I was one of the developer of an internal project, for developing a REST application. We used different technologies:",
       logoUrl: "images/grupposcai.png",
-      details: ["Spring Boot, Java, Hibernate, JPA, Docker, Maven", "Angular, HTML5, CSS3, Typescript", "Amazon Web Services - Lambda / Amplify / S3", "MySQL","Oauth2", "Webauthn"]
+      details: ["Spring Boot, Java, Hibernate, JPA, Docker, Maven", "Angular, HTML5, CSS3, Typescript", "Amazon Web Services - Lambda / Amplify / S3", "MySQL, H2","Oauth2, Webauthn"]
     },
     {
       company: "Banca Popolare di Sondrio",

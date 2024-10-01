@@ -23,6 +23,21 @@ export class SkillsComponent {
       name: "Typescript"
     },
     {
+      path: "icons/cypress.svg",
+      alt:  "Cypress Icon",
+      name: "Cypress"
+    },
+    {
+      path: "icons/karma.svg",
+      alt:  "Karma Icon",
+      name: "Karma"
+    },
+    {
+      path: "icons/jasmine.svg",
+      alt:  "Jasmine Icon",
+      name: "Jasmine"
+    },
+    {
       path: "icons/c.svg",
       alt:  "C Icon",
       name: "C"

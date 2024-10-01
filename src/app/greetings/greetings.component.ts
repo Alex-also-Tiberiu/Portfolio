@@ -24,7 +24,7 @@ export class GreetingsComponent{
 
   title = "Hi all, I'm Alexandru";
   subTitle = "A passionate Computer Engineer having an experience of building Web and Mobile "
-  + "applications with TypeScript / Angular / Spring Boot and some other modern libraries and frameworks."
+  + "applications with Angular / Spring Boot and some other modern libraries and frameworks."
 
   scrollToContactMe() {
     const element = document.getElementById('contact-me');
