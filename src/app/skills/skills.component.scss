@@ -32,20 +32,20 @@
   color: #333;
 }
 
-.skills i:hover, .skills img:hover, .skill-container:hover, .hover-svg:hover {
-  transition: 0.3s ease;
-  color: var(--skillsColor);
-}
+// .skills i:hover, .skills img:hover, .skill-container:hover, .hover-svg:hover {
+//   transition: 0.3s ease;
+//   color: var(--skillsColor);
+// }
 
-.hover-svg {
-  //transition: filter 0.3s ease;
-  transition: fill 0.3s ease;
-}
+// .hover-svg {
+//   //transition: filter 0.3s ease;
+//   transition: fill 0.3s ease;
+// }
 
-.hover-svg:hover {
-  //filter: invert(28%) sepia(100%) saturate(1000%) hue-rotate(230deg) brightness(100%) contrast(100%);
-  fill: var(--skillsColor)
-}
+// .hover-svg:hover {
+//   //filter: invert(28%) sepia(100%) saturate(1000%) hue-rotate(230deg) brightness(100%) contrast(100%);
+//   fill: var(--skillsColor)
+// }
 
 .skill-container {
   text-align: center;

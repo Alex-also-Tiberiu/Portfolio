@@ -128,7 +128,7 @@ export class SkillsComponent {
     {
       class:"fab fa-js",
       name:"Javascript",
-      link:"https://www.javascript.com"
+      link:""
     },
     {
       class:"fab fa-bootstrap",
@@ -138,7 +138,7 @@ export class SkillsComponent {
     {
       class:"fab fa-angular",
       name:"Angular",
-      link:"https://angular.io"
+      link:""
     },
     {
       class:"fab fa-node",
