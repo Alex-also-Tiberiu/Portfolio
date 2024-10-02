@@ -7,7 +7,7 @@ An example preview of this template is available [Here](https://alex-also-tiberi
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/user-attachments/assets/42007da9-1b0e-45fd-ae3b-ec5cefa2962a" alt="GIF">
+    <img src="https://github.com/user-attachments/assets/268d5365-de32-4c26-908e-ee7383673ded" alt="GIF">
   </kbd>
 </p>
 
