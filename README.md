@@ -2,7 +2,7 @@
 
 ## Modern template in Angular for publishing your personal portfolio. <br>
 <br /> 
-🚀 An example preview of this template is available **[Here](https://alex-also-tiberiu.github.io/Portfolio)** 🚀 <br>
+🚀 An example preview of this template is available [Here](https://alex-also-tiberiu.github.io/Portfolio) 🚀 <br>
 <br />
 
 <p align="center">
