@@ -1,8 +1,8 @@
-# Portfolio
+# Portfolio 
 
 ## Modern template in Angular for publishing your personal portfolio. <br>
 <br>
-🚀 An example preview of this template is available [here](https://alex-also-tiberiu.github.io/Portfolio/) 🚀 <br>
+🚀 An example preview of this template is available ![here](https://alex-also-tiberiu.github.io/Portfolio/) 🚀 <br>
 <br>
 
 <p align="center">
