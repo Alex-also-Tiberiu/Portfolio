@@ -1,9 +1,26 @@
 # Portfolio
 
-Modern template in Angular for publishing your personal portfolio. <br>
+## Modern template in Angular for publishing your personal portfolio. <br>
+<br>
+🚀 An example preview of this template is available [here](https://alex-also-tiberiu.github.io/Portfolio/) 🚀 <br>
+<br>
 
+<p align="center">
+  <kbd>
+    <img src="https://github.com/user-attachments/assets/42007da9-1b0e-45fd-ae3b-ec5cefa2962a" alt="GIF">
+  </kbd>
+</p>
+
+## Portfolio Sections
+✅ Home\
+✅ Skills\
+✅ Proficiency\
+✅ Education\
+✅ Experiences\
+✅ Projects\
+✅ Contact me\
+<br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
