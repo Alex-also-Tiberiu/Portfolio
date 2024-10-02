@@ -1,9 +1,9 @@
 # Portfolio 
 
 ## Modern template in Angular for publishing your personal portfolio. <br>
-<br>
-🚀 An example preview of this template is available ![here](https://alex-also-tiberiu.github.io/Portfolio/) 🚀 <br>
-<br>
+<br /> 
+🚀 An example preview of this template is available **[Here](https://alex-also-tiberiu.github.io/Portfolio)** 🚀 <br>
+<br />
 
 <p align="center">
   <kbd>
@@ -19,7 +19,7 @@
 ✅ Experiences\
 ✅ Projects\
 ✅ Contact me\
-<br>
+<br />
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 ## Development server
 
