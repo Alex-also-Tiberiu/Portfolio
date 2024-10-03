@@ -19,7 +19,7 @@ export class GreetingsComponent{
   }
 
   animationCreated(animationItem: AnimationItem): void {
-    console.log(animationItem);
+    //console.log(animationItem);
   }
 
   title = "Hi all, I'm Alexandru";
@@ -34,6 +34,6 @@ export class GreetingsComponent{
   }
 
   mailTo() {
-    return "mailto:" + "alexandrutiberiu.vilcu@gmail.com";
+    return "mailto:" + "test@test.com";
   }
 }

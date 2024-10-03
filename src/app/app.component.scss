@@ -2,17 +2,9 @@
     position: sticky;
     z-index: 2;
     background-color: white;
+    transition: transform 0.3s ease-in-out;
 }
 
-.example-container {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
 .sidenav {
     position: fixed;

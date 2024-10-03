@@ -14,8 +14,8 @@ export class ContactMeComponent {
   }
 
   details = {
-    mobile: "",
-    email:  "alexandrutiberiu.vilcu@gmail.com",
+    mobile: "+0012311",
+    email:  "test@test.com",
   }
 
   tel() {
